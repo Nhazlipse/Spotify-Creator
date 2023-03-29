@@ -4,7 +4,7 @@ const readline = require('readline');
 
 async function getRandomUser() {
   try {
-    const response = await axios.get('https://randomuser.me/api/');
+    const response = await axios.get('https://randomuser.me/api/?nat=us');
     if (response.status === 200) {
       const userData = response.data.results[0];
       const name = `${userData.name.first} ${userData.name.last}`;
