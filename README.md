@@ -6,21 +6,30 @@ This is an automated Spotify account creator using the Spogentify API. It is bui
 1. Install Git Bash.
 2. Install Node.js.
 3. Open Git Bash and type `git clone https://github.com/fahreza008/Spotify-Creator`
-4. type npm install axios.
-5. Type node index.js.
-6. Fill out all the required information in the script.
+4. cd Spotify-Creator
+5. type npm install axios.
+6. Type node index.js.
+7. Fill out all the required information in the script.
 
 
-Usage (Linux - Ubuntu)
-Run apt-get update.
-Run apt-get install nodejs.
-Run npm install axios.
-Run node index.js.
-Fill out all the required information in the script.
-Usage (Termux)
-Run pkg update.
-Run pkg install nodejs.
-Run npm install axios.
-Run node index.js.
-Fill out all the required information in the script.
-Note: I have not tested the script on Termux/Linux, so please let me know if there are any issues.
+## Usage (Linux - Ubuntu)
+1. apt-get update.
+2. apt-get install nodejs.
+3. `git clone https://github.com/fahreza008/Spotify-Creator`
+4. cd Spotify-Creator
+5. npm install axios.
+6. node index.js.
+7. Fill out all the required information in the script.
+
+
+## Usage (Termux)
+1. pkg update
+2. pkg install nodejs
+3. `git clone https://github.com/fahreza008/Spotify-Creator`
+4. cd Spotify-Creator
+5. npm install axios.
+6. node index.js.
+7. Fill out all the required information in the script.
+
+
+### Note: I have not tested the script on Termux/Linux, so please let me know if there are any issues.
